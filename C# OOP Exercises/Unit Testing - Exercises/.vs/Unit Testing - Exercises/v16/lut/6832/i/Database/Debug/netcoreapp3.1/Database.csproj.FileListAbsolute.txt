@@ -1,0 +1,6 @@
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database\Debug\netcoreapp3.1\Database.deps.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database\Debug\netcoreapp3.1\Database.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database\Debug\netcoreapp3.1\Database.csproj.CopyComplete
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database\Debug\netcoreapp3.1\Database.dll

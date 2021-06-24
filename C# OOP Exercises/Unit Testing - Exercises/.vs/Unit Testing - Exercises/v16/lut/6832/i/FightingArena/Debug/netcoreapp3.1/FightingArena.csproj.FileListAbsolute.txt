@@ -1,0 +1,6 @@
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\FightingArena\Debug\netcoreapp3.1\FightingArena.deps.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\FightingArena\Debug\netcoreapp3.1\FightingArena.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\FightingArena\Debug\netcoreapp3.1\FightingArena.AssemblyInfoInputs.cache
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\FightingArena\Debug\netcoreapp3.1\FightingArena.AssemblyInfo.cs
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\FightingArena\Debug\netcoreapp3.1\FightingArena.csproj.CopyComplete
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\FightingArena\Debug\netcoreapp3.1\FightingArena.dll

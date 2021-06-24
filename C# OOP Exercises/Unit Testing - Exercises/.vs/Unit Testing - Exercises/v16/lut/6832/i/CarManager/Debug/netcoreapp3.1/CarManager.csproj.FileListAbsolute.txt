@@ -1,0 +1,7 @@
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\CarManager\Debug\netcoreapp3.1\CarManager.deps.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\CarManager\Debug\netcoreapp3.1\CarManager.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\CarManager\Debug\netcoreapp3.1\CarManager.csprojAssemblyReference.cache
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\CarManager\Debug\netcoreapp3.1\CarManager.AssemblyInfoInputs.cache
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\CarManager\Debug\netcoreapp3.1\CarManager.AssemblyInfo.cs
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\CarManager\Debug\netcoreapp3.1\CarManager.csproj.CopyComplete
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\CarManager\Debug\netcoreapp3.1\CarManager.dll

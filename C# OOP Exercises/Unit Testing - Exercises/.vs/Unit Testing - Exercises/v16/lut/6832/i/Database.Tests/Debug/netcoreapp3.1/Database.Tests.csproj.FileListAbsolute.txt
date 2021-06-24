@@ -1,0 +1,12 @@
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\nunit.engine.netstandard.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\Mono.Cecil.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\Database.Tests.deps.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\Database.Tests.runtimeconfig.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\Database.Tests.runtimeconfig.dev.json
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\b\Database.Tests\Debug\netcoreapp3.1\Database.Tests.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database.Tests\Debug\netcoreapp3.1\Database.Tests.AssemblyInfoInputs.cache
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database.Tests\Debug\netcoreapp3.1\Database.Tests.AssemblyInfo.cs
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database.Tests\Debug\netcoreapp3.1\Database.Tests.csproj.CopyComplete
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database.Tests\Debug\netcoreapp3.1\Database.Tests.dll
+C:\Users\KNx2\Desktop\C#\C#-OOP-Exercises\Unit Testing - Exercises\.vs\Unit Testing - Exercises\v16\lut\0\i\Database.Tests\Debug\netcoreapp3.1\Database.Tests.genruntimeconfig.cache
