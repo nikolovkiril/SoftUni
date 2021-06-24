@@ -2,7 +2,7 @@
 
 C# Fundamentals,
 Advanced,
-OOP-Exercises,
+OOP,
 Web Basics,
 
 Entity Framework Core,
