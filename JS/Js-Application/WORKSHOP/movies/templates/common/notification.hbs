@@ -1,0 +1,23 @@
+<section class="notifications" style="display: none;">
+    <p class="notification-message" id="errorBox">Message...</p>
+</section>
+<section class="notifications" style="display: none;background-color:rgba(1, 131, 29, 0.541);">
+    <p class="notification-message" id="successBox">Message...</p>
+</section>
+
+<script>
+    function notify(message, type = 'success') {
+        let notifycationEl;
+
+        switch (type) {
+            case 'success':
+                notifycationEl = document.getElementById('successBox');
+                break;
+            case 'error':
+                notifycationEl = document.getElementById('errorBox');
+                break;
+        }
+        notifycationEl.innerHTML = message;
+        notifycationEl.parentElement.style.display = 'block';
+    }
+</script>

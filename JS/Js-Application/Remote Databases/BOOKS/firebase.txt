@@ -1,0 +1,2 @@
+GET post addres  = `https://books-exercises-ea44b.firebaseio.com/books/.json`;
+EDIT , DELETE , PATCH = `https://books-exercises-ea44b.firebaseio.com/books/${id}/.json`

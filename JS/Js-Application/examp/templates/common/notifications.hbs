@@ -1,0 +1,27 @@
+<!-- Notifications -->
+       <section class="notifications" style="display:none;"></section>
+    <p class="notifications-message" id="errorBox"></p>
+
+    <section class="notifications" style="display:none;background-color: rgba(1, 131, 29, 0.541);"></section>
+    <p class="notifications-message" id="successBox"></p>
+
+            <script>
+                function notify(message, type = 'success') {
+                    let notifycationEl;
+
+                    switch (type) {
+                        case 'success':
+                            notifycationEl = document.getElementById('successBox');
+                            break;
+                        case 'error':
+                            notifycationEl = document.getElementById('errorBox');
+                            break;
+                    }
+                    notifycationEl.innerHTML = message;
+                    notifycationEl.parentElement.style.display = 'block';
+
+                    setTimeout(() => {
+                    notifycationEl.parentElement.style.display = 'none';
+                }, 1500);
+                }
+            </script>

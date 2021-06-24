@@ -1,0 +1,7 @@
+Ussing TERMINAL ! 
+
+In package.json --> 
+
+"scripts": {
+    "test": "mocha --change me with forlder name--"
+  }
