@@ -1,21 +1,13 @@
 ﻿namespace SharedTrip.Data
 {
     using Microsoft.EntityFrameworkCore;
+    using SharedTrip.Data.Models;
 
     public class SharedTripDbContext : DbContext
-    {
-        public SharedTripDbContext()
-        {
-        }
-
+    {       
         public DbSet<User> Users { get; set; }
         public DbSet<Trip> Trips{ get; set; }
         public DbSet<UserTrip> UserTrips{ get; set; }
-
-        public SharedTripDbContext(DbContextOptions db)
-            : base(db)
-        {
-        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
