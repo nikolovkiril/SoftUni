@@ -1,22 +1,26 @@
 ﻿namespace SharedTrip
 {
     using Microsoft.EntityFrameworkCore;
+    using MyWebServer;
+    using MyWebServer.Controllers;
+    using MyWebServer.Results.Views;
     using SharedTrip.Data;
-    using SharedTrip.Services;
-    using SUS.HTTP;
-    using SUS.MvcFramework;
-    using System.Collections.Generic;
+    using System.Threading.Tasks;
 
-    public class Startup : IMvcApplication
+    public class Startup 
     {
-        public void Configure(List<Route> routeTable)
-        {
-            new ApplicationDbContext().Database.Migrate();
-        }
-
-        public void ConfigureServices(IServiceCollection serviceCollection)
-        {
-            serviceCollection.Add<IUsersService, UsersService>();
-        }
+        public static async Task Main()
+              => await HttpServer
+                  .WithRoutes(routes => routes
+                      .MapStaticFiles()
+                      .MapControllers())
+                  .WithServices(services => services
+                      .Add<SharedTripDbContext>()
+                      //.Add<IValidator, Validator>()
+                      //.Add<IPasswordHasher, PasswordHasher>()
+                      .Add<IViewEngine, CompilationViewEngine>())
+                  .WithConfiguration<SharedTripDbContext>(context => context
+                      .Database.Migrate())
+                  .Start();
     }
 }

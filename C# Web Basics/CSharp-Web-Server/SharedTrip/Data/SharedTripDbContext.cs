@@ -2,9 +2,9 @@
 {
     using Microsoft.EntityFrameworkCore;
 
-    public class ApplicationDbContext : DbContext
+    public class SharedTripDbContext : DbContext
     {
-        public ApplicationDbContext()
+        public SharedTripDbContext()
         {
         }
 
@@ -12,7 +12,7 @@
         public DbSet<Trip> Trips{ get; set; }
         public DbSet<UserTrip> UserTrips{ get; set; }
 
-        public ApplicationDbContext(DbContextOptions db)
+        public SharedTripDbContext(DbContextOptions db)
             : base(db)
         {
         }

@@ -9,9 +9,9 @@
 
     public class UsersService : IUsersService
     {
-        private readonly ApplicationDbContext db;
+        private readonly SharedTripDbContext db;
 
-        public UsersService(ApplicationDbContext db)
+        public UsersService(SharedTripDbContext db)
         {
             this.db = db;
         }
