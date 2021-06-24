@@ -28,11 +28,26 @@
 
         public HttpResponse Login() => this.View();
 
-        //[HttpPost]
-        //public HttpResponse Login(LoginInputModel input)
-        //{
+        [HttpPost]
+        public HttpResponse Login(LoginUserFormModel model)
+        {
+            var hashedPassword = this.passwordHasher.HashPassword(model.Password);
 
-        //}
+            var userId = this.db
+                .Users
+                .Where(u => u.Username == model.Username && u.Password == hashedPassword)
+                .Select(u => u.Id)
+                .FirstOrDefault();
+
+            if (userId == null)
+            {
+                return Error("Username and password combination is not valid.");
+            }
+
+            this.SignIn(userId);
+
+            return Redirect("/Trips/All");
+        }
 
         public HttpResponse Register() => View();
 
