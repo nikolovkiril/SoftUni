@@ -3,6 +3,6 @@
     public class DatabaseConfiguration
     {
         public const string ConnectionString =
-            @"Server=.\SQLEXPRESS;Database=BattleCards;Integrated Security=True;";
+            @"Server=.\SQLEXPRESS;Database=SharedTrip;Integrated Security=True;";
     }
 }
