@@ -7,6 +7,8 @@
     using System.Text.RegularExpressions;
 
     using static Data.DataConstants;
+    using SharedTrip.Models.Trips;
+    using System.Globalization;
 
     public class Validator : IValidator
     {
@@ -39,6 +41,34 @@
                 errors.Add($"Password and its confirmation are different.");
             }
 
+            return errors;
+        }
+
+        public ICollection<string> ValidateTrip(AddTripFormModel trip)
+        {
+            var errors = new List<string>();
+
+            if (trip.Description.Length > TripDescriptionLength)
+            {
+                errors.Add($"Description can not be more then {TripDescriptionLength} characters.");
+            }
+
+            if (trip.Seats < MinAvailableSeats || trip.Seats > MaxAvailableSeats)
+            {
+                errors.Add($"Seats can not be less then {MinAvailableSeats} and more then {MaxAvailableSeats}.");
+            }
+
+            DateTime date;
+
+            if (!DateTime.TryParseExact(
+                trip.DepartureTime, 
+                "dd'.'MM'.'yyyy HH:mm", 
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
+                out date))
+            {
+                errors.Add($"DepartureTime must be in format 'dd/MM/yyyy HH:mm'.");
+            }
             return errors;
         }
     }
