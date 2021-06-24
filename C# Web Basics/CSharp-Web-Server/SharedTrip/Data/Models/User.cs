@@ -5,12 +5,13 @@
     using System.ComponentModel.DataAnnotations;
     using System.Text;
 
+    using static DataConstants;
     public class User
     {
         public string Id { get; init; } = Guid.NewGuid().ToString();
 
         [Required]
-        [MaxLength(20)]
+        [MaxLength(UsernameMaxLength)]
         public string Username { get; init; }
 
         [Required]

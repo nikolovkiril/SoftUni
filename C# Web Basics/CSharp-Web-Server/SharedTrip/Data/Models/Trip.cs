@@ -3,7 +3,8 @@
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.Text;
+
+    using static Data.DataConstants;
 
     public class Trip
     {
@@ -17,10 +18,11 @@
 
         public DateTime DepartureTime { get; init; }
 
+        [MaxLength(MaxAvailableSeats)]
         public byte Seats { get; set; }
 
         [Required]
-        [MaxLength(80)]
+        [MaxLength(TripDescriptionLength)]
         public string Description { get; init; }
 
         public string ImagePath { get; init; }

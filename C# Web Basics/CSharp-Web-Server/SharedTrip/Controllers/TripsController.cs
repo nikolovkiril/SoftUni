@@ -1,7 +1,7 @@
 ﻿namespace SharedTrip.Controllers
 {
-    using SUS.HTTP;
-    using SUS.MvcFramework;
+    using MyWebServer.Controllers;
+    using MyWebServer.Http;
     using System;
     using System.Collections.Generic;
     using System.Text;
