@@ -84,5 +84,11 @@
 
             return Redirect("/Users/Login");
         }
+        public HttpResponse Logout()
+        {
+            this.SignOut();
+
+            return Redirect("/Users/Login");
+        }
     }
 }

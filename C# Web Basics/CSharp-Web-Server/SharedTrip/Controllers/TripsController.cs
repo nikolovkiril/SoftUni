@@ -94,10 +94,27 @@
 
             return Redirect("/Trips/All");
         }
-
-        public HttpResponse Details()
+        public HttpResponse Details(string tripId)
         {
-            return this.View();
+            if (!this.db.Trips.Any(t=>t.Id == tripId))
+            {
+                return Error("Trip no longer exist.");
+            }
+            var trip = this.db
+                 .Trips
+                 .Where(t => t.Id == tripId)
+                 .Select(t => new ViewTripsFormModel
+                 {
+                     DepartureTime = t.DepartureTime.ToString("dd'.'MM'.'yyyy HH:mm"),
+                     StartPoint = t.StartPoint,
+                     EndPoint = t.EndPoint,
+                     Description = t.Description,
+                     ImagePath = t.ImagePath,
+                     Seats = t.Seats
+                 })
+                 .FirstOrDefault();
+
+            return View(trip);
         }
     }
 }
