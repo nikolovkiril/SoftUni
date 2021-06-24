@@ -1,11 +1,11 @@
 # SoftUni
 
-C# Fundamentals
-C# Advanced
-C#-OOP-Exercises
-C# Web Basics
+C# Fundamentals,
+Advanced,
+OOP-Exercises,
+Web Basics,
 
-Entity Framework Core
+Entity Framework Core,
 
-Js-Application
-Js-Advanced
+Js-Application,
+Js-Advanced,
