@@ -1,0 +1,11 @@
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.exe
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.deps.json
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.runtimeconfig.json
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.runtimeconfig.dev.json
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.dll
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\bin\Debug\netcoreapp3.1\01. Nikulden’s Charity.pdb
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\obj\Debug\netcoreapp3.1\01. Nikulden’s Charity.csprojAssemblyReference.cache
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\obj\Debug\netcoreapp3.1\01. Nikulden’s Charity.AssemblyInfoInputs.cache
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\obj\Debug\netcoreapp3.1\01. Nikulden’s Charity.AssemblyInfo.cs
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\obj\Debug\netcoreapp3.1\01. Nikulden’s Charity.dll
+C:\Users\E6540\Desktop\C#\Programming Fundamentals Mid Exam - 30 June 2019 Group 2\01. Nikulden’s Charity\obj\Debug\netcoreapp3.1\01. Nikulden’s Charity.pdb
