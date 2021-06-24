@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MSSQL Server Exam - 13 Feb 2021", "MSSQL Server Exam - 13 Feb 2021.ssmssqlproj", "{F39DE4CA-318D-46F2-9FC3-33553E04C89A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD56E4C-DA10-4507-95BC-9770808B9BD1}.Default|Default.ActiveCfg = Default
+		{F39DE4CA-318D-46F2-9FC3-33553E04C89A}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17C8C3D0-D3A8-4DBF-80AF-05C3679B966E}
+	EndGlobalSection
+EndGlobal

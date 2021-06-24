@@ -1,0 +1,29 @@
+CREATE TABLE Passports
+(
+	PassportID INT IDENTITY(101,1) PRIMARY KEY NOT NULL,
+	PassportNumber NVARCHAR(30) NOT NULL UNIQUE
+)
+
+CREATE TABLE Persons
+(
+	PersonID INT IDENTITY PRIMARY KEY NOT NULL,
+	FirstName NVARCHAR(30) NOT NULL,
+	Salary DECIMAL(10,2),
+	PassportID INT NOT NULL 
+)
+INSERT INTO  Passports(PassportNumber)
+VALUES
+('N34FG21B'),
+('K65LO4R7'),
+('ZE657QP2')
+
+INSERT INTO Persons(FirstName, Salary, PassportID)
+VALUES
+('Roberto', 43300.00, 101),
+('Tom', 56100.00, 102),
+('Yana', 60200.00, 103)
+
+ALTER TABLE Persons
+ADD FOREIGN KEY (PassportID) REFERENCES Passports(PassportID);
+
+ SELECT * FROM Persons
