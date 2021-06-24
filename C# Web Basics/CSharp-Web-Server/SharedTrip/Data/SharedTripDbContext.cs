@@ -21,13 +21,13 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=SharedTrip;Integrated Security=true;");
+                optionsBuilder.UseSqlServer(DatabaseConfiguration.ConnectionString);
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserTrip>().HasKey(x => new { x.TripId, x.UserId });
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<UserTrip>()
+                .HasKey(x => new { x.TripId, x.UserId });
         }
     }
 }

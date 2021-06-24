@@ -1,4 +1,4 @@
-﻿    namespace SharedTrip.Data
+﻿namespace SharedTrip.Data.Models
 {
     using System;
     using System.Collections.Generic;
