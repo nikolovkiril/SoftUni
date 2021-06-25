@@ -37,7 +37,7 @@
                     Description = t.Description,
                     StartPoint = t.StartPoint,
                     EndPoint = t.EndPoint,
-                    DepartureTime = t.DepartureTime.ToString("dd'.'MM'.'yyyy HH:mm"),
+                    DepartureTime = t.DepartureTime.ToString("dd.MM.yyyy HH:mm"),
                     Seats = t.Seats,
                     ImagePath = t.ImagePath
                 })
@@ -94,27 +94,50 @@
 
             return Redirect("/Trips/All");
         }
+        [Authorize]
         public HttpResponse Details(string tripId)
         {
-            if (!this.db.Trips.Any(t=>t.Id == tripId))
+            if (!this.db.Trips.Any(t => t.Id == tripId))
             {
                 return Error("Trip no longer exist.");
             }
+
             var trip = this.db
                  .Trips
                  .Where(t => t.Id == tripId)
                  .Select(t => new ViewTripsFormModel
                  {
+                     Id = tripId,
                      DepartureTime = t.DepartureTime.ToString("dd'.'MM'.'yyyy HH:mm"),
                      StartPoint = t.StartPoint,
                      EndPoint = t.EndPoint,
                      Description = t.Description,
                      ImagePath = t.ImagePath,
-                     Seats = t.Seats
+                     Seats = t.Seats,
                  })
                  .FirstOrDefault();
 
             return View(trip);
+        }
+
+        [Authorize]
+        public HttpResponse AddUserToTrip(string tripId)
+        {
+            var trip = this.db.Trips.FirstOrDefault(t => t.Id == tripId);
+                       
+            var userTrip = new UserTrip
+            {
+                TripId = tripId,
+                UserId = this.User.Id
+            };
+
+            if (!this.db.UserTrips.Any(u => u.UserId == this.User.Id && u.TripId == tripId) && trip.Seats > 0)
+            {
+                trip.Seats -= 1;
+                this.db.UserTrips.Add(userTrip);
+                this.db.SaveChanges();
+            }
+            return Redirect("/Trips/All");
         }
     }
 }
